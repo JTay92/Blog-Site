@@ -1,25 +1,24 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #fdffb6;
+  background-color: #979dac;
 }
 
 .navbar {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: yellowgreen;
-  margin: 2rem;
+  background-color: #7d8597;
   padding: 1rem;
 }
 
 .blog-title {
   font-family: "Roboto", sans-serif;
   font-style: italic;
+  font-weight: 900;
   font-size: 30px;
   padding: 1rem;
   display: inline-flex;
-  background-color: blue;
 }
 
 .topnav {
@@ -31,9 +30,29 @@ body {
   color: black;
   text-align: right;
   padding: 2rem;
-  background-color: blue;
 }
 
 .topnav a:hover {
   background-color: red;
+}
+
+.intro {
+  width: 50%;
+  margin-left: 3rem;
+  text-align: justify;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #7d8597;
+  color: white;
+}
+
+.website-details a {
+  text-decoration: none;
+  color: white;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 1rem;
 }
