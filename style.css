@@ -30,6 +30,8 @@ body {
   color: black;
   text-align: right;
   padding: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .topnav a:hover {
@@ -42,6 +44,14 @@ body {
   margin-right: auto;
   padding: 1rem;
   border-radius: 50%;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: italic;
+  font-weight: 900;
 }
 
 .intro {
