@@ -36,13 +36,22 @@ body {
   background-color: red;
 }
 
+.portrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
 .intro {
-  width: 50%;
+  width: 100%;
   margin-left: 3rem;
   text-align: justify;
 }
 
 footer {
+  width: 100%;
   display: flex;
   justify-content: center;
   background-color: #7d8597;
