@@ -60,6 +60,13 @@ body {
   text-align: justify;
 }
 
+.intro p {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  float: center;
+}
+
 footer {
   width: 100%;
   display: flex;
@@ -74,4 +81,20 @@ footer {
   display: inline-flex;
   justify-content: space-between;
   padding: 1rem;
+}
+
+.row {
+  margin: 100px 200px;
+}
+
+.column {
+  float: left;
+  /* display: block; */
+  width: 25%;
+}
+
+.row p {
+  text-align: justify;
+  justify-content: center;
+  width: 100%;
 }
