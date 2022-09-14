@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #979dac;
+  max-width: 75%;
+  margin: auto;
 }
 
 .navbar {
@@ -42,8 +44,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 1rem;
   border-radius: 50%;
+  padding: 1rem;
 }
 
 .about-me {
@@ -84,13 +86,17 @@ footer {
 }
 
 .row {
-  margin: 100px 200px;
+  /* width: 100%; */
+  margin: auto;
 }
 
 .column {
   display: inline-block;
-  width: 25%;
+  width: 30%;
   text-align: center;
+  padding: 0.5rem;
+  margin-left: 1.25rem;
+  border: 2px solid black;
 }
 
 .row p {
