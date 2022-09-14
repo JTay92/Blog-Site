@@ -88,9 +88,9 @@ footer {
 }
 
 .column {
-  float: left;
-  /* display: block; */
+  display: inline-block;
   width: 25%;
+  text-align: center;
 }
 
 .row p {
