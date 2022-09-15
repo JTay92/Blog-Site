@@ -103,3 +103,39 @@ footer {
   justify-content: center;
   width: 100%;
 }
+
+.blogs {
+  /* border: 2px solid black; */
+  width: 100%;
+  margin: auto;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.details {
+  text-align: center;
+  margin: auto;
+  padding-right: 0.5rem;
+}
+
+.author {
+  font-size: smaller;
+  font-style: italic;
+}
+
+#blog-name {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: xx-large;
+}
+
+.blog-image {
+  /* border: 2px solid black; */
+  padding: 0 2rem 0 2rem;
+}
+
+.blogs p {
+  text-align: center;
+  margin: auto;
+  font-size: larger;
+}
