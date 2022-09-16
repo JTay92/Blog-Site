@@ -165,7 +165,7 @@ footer {
   visibility: hidden;
   width: 330px;
   height: auto;
-  background: orange;
+  background: seagreen;
   padding: 30px 35px 40px;
   box-sizing: border-box;
   border-radius: 5px;
@@ -188,4 +188,41 @@ footer {
 #click:checked ~ .popup-form {
   opacity: 1;
   visibility: visible;
+}
+
+.wrapper h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 23px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.wrapper .input-field {
+  margin-bottom: 20px;
+}
+
+.wrapper .input-field input[type="text"],
+.wrapper .input-field textarea {
+  width: 100%;
+  padding: 12px;
+  border: 0;
+}
+
+input,
+textarea {
+  display: block;
+  height: 43px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  border: none;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.wrapper .input-field textarea {
+  resize: none;
+  height: 100px;
 }
