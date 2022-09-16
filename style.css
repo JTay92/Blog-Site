@@ -124,7 +124,7 @@ footer {
   font-style: italic;
 }
 
-#blog-name {
+.blog-name {
   font-family: "Roboto Condensed", sans-serif;
   font-size: xx-large;
 }
