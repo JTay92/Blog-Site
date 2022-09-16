@@ -226,3 +226,18 @@ textarea {
   resize: none;
   height: 100px;
 }
+
+.wrapper .form .form-btn {
+  margin-top: 25px;
+  background: #00afb9;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.wrapper .form .form-btn button {
+  color: #fff;
+  display: block;
+}
