@@ -159,3 +159,14 @@ footer {
 #click {
   display: none;
 }
+
+.popup-form {
+  opacity: 0;
+  visibility: hidden;
+  width: 330px;
+  height: auto;
+  background: orange;
+  padding: 30px 35px 40px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
