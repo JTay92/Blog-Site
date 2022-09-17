@@ -167,18 +167,19 @@ footer {
   visibility: hidden;
   width: 330px;
   height: auto;
-  background: #96999e;
+  background: #737579;
   padding: 30px 35px 40px;
   box-sizing: border-box;
   border-radius: 5px;
 }
 
 #times {
-  /* position: absolute; */
+  position: absolute;
   right: 10px;
   top: 20px;
   font-size: 25px;
-  background: blue;
+  background: #737579;
+  box-shadow: 2px 2px 2px 2px rgba(65, 64, 64, 0.5);
   padding: 3px;
   padding-left: 11px;
   padding-right: 11px;
