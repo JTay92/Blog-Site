@@ -37,7 +37,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: red;
+  background-color: #838894d5;
 }
 
 .portrait {
@@ -158,7 +158,7 @@ footer {
 }
 
 .form-button:hover {
-  background-color: red;
+  background-color: #838894d5;
 }
 
 /* Remove checkbox */
