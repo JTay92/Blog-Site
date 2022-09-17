@@ -242,7 +242,8 @@ textarea {
 
 .wrapper .form .form-btn {
   margin-top: 25px;
-  background: #00afb9;
+  background: #737579;
+  box-shadow: 2px 2px 2px 2px rgba(65, 64, 64, 0.5);
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
