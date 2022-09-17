@@ -76,12 +76,17 @@ footer {
   color: white;
 }
 
+.website-details p {
+  margin-left: 3rem;
+}
+
 .website-details a {
   text-decoration: none;
   color: white;
   display: inline-flex;
   justify-content: space-between;
   padding: 1rem;
+  margin-left: 3rem;
 }
 
 .row {
