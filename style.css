@@ -162,10 +162,11 @@ footer {
 
 .popup-form {
   opacity: 0;
+  position: fixed;
   visibility: hidden;
   width: 330px;
   height: auto;
-  background: seagreen;
+  background: #96999e;
   padding: 30px 35px 40px;
   box-sizing: border-box;
   border-radius: 5px;
@@ -188,6 +189,7 @@ footer {
 #click:checked ~ .popup-form {
   opacity: 1;
   visibility: visible;
+  position: relative;
 }
 
 .wrapper h3 {
@@ -238,6 +240,6 @@ textarea {
 }
 
 .wrapper .form .form-btn button {
-  color: #fff;
+  color: black;
   display: block;
 }
