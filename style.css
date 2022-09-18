@@ -146,6 +146,9 @@ footer {
 .blog-image {
   /* border: 2px solid black; */
   padding: 0 2rem 0 2rem;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
 }
 
 .blogs p {
