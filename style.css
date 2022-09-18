@@ -103,6 +103,12 @@ footer {
   border: 2px solid black;
 }
 
+.column img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
 .row p {
   text-align: justify;
   justify-content: center;
