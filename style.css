@@ -46,6 +46,9 @@ body {
   margin-right: auto;
   border-radius: 50%;
   padding: 1rem;
+  width: 100%;
+  max-width: 239px;
+  height: auto;
 }
 
 .about-me {
