@@ -26,6 +26,7 @@ body {
 
 .topnav {
   display: inline-flex;
+  position: relative;
 }
 
 .toggle-button {
@@ -121,6 +122,12 @@ footer {
   margin: auto;
 }
 
+.row p {
+  text-align: justify;
+  justify-content: center;
+  width: 100%;
+}
+
 .column {
   display: inline-block;
   width: 30%;
@@ -134,12 +141,6 @@ footer {
   width: 100%;
   max-width: 300px;
   height: auto;
-}
-
-.row p {
-  text-align: justify;
-  justify-content: center;
-  width: 100%;
 }
 
 .blogs {
@@ -304,13 +305,13 @@ textarea {
     width: 100%;
     max-width: 100%;
     justify-content: center;
+    text-align: center;
   }
 
   .toggle-button {
     display: flex;
-    /* top: ; */
-    /* right: auto; */
-    /* position: absolute; */
+    margin: auto;
+    right: 1rem;
   }
 
   .navbar {
@@ -318,12 +319,14 @@ textarea {
     display: block;
     margin: auto;
     justify-content: none;
+    padding: none;
   }
 
   .topnav {
     display: none;
     width: 100%;
     flex-direction: column;
+    align-items: center;
   }
 
   .topnav a {
@@ -337,9 +340,25 @@ textarea {
     display: flex;
   }
 
+  .row {
+    display: block;
+  }
+
   .column {
     display: block;
     width: 100%;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+  }
+
+  .column h3 img {
+    text-align: center;
+    display: inline-block;
+  }
+
+  .column img {
+    margin-top: 1rem;
   }
 
   .blogs {
@@ -350,5 +369,6 @@ textarea {
 
   .blog-image {
     max-width: 100%;
+    padding: 1rem 0;
   }
 }
